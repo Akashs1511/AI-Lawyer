@@ -1,0 +1,8 @@
+.env
+*.mp3
+__pycache__/
+*.pyc
+*.pkl
+*.sqlite3
+*.db
+*.DS_Store
