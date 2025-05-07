@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 #load_dotenv()
 
 #Step1: Setup LLM (Use DeepSeek R1 with Groq)
-llm_model=ChatGroq(model="deepseek-r1-distill-llama-70b")
+llm_model=ChatGroq(model="deepseek-r1:1.5b")
 
 #Step2: Retrieve Docs
 
